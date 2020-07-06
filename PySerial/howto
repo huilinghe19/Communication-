@@ -1,2 +1,7 @@
-download the pyserial file and change something to adapt python 3
+download the pyserial tango ds file online and change something to adapt python 3. 
 
+
+
+python3 ~/work/copleyCtrlRepository/CopleyControlProgramsHHL/PySerial.py copleyCtrlSerialLine
+copleyCtrlSerialLine is an instance name, which can be changed.
+In oder to use copley controller, a related pyserial motor name must be given.
