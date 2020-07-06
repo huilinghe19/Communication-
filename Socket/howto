@@ -1,1 +1,8 @@
-download the socket file online and make the file executable.
+Download the socket file online and make the file executable. The important commands are:
+svn co http://svn.code.sf.net/p/tango-ds/code/DeviceClasses/Communication/DESY/Socket 
+export TANGO_DIR=~/tango/
+make
+
+
+usage: "~/tango/DeviceClasses/Communication/DESY/Socket/tags/Release_1_7/bin/Socket test"
+test is a chosen instance name, which can be changed.
