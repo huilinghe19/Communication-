@@ -17,3 +17,6 @@ WARNING: The scripts iptest, iptest3, ipython and ipython3 are installed in '/ne
 >>> export PATH=/net/home/oil/.local/bin
 
 >>> ipython
+
+usage of Itango3 
+>>>/usr/bin/itango3
