@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title> TangoEpics Tango Class Description </title>
+</head>
+<body text="Black" bgcolor="White" link="Blue" vlink="Purple" alink="Red">
+<ul>
+	<br><br><br>
+	<table border="0" width="100%">
+		<Tr>
+			<td> <font size="+1"><u><b> TangoEpics Class Identification : </b></u></font> </td>
+			<td> <font size="+1"><u><b> TangoEpics Class Inheritance : </b></u></font> </td>
+		</tr>
+		<td><ul>
+			<table border="0">
+				<Tr>
+					<td> Contact </td><td> : at cells.es - jmoldes</td>
+				</tr>
+				<tr>
+					<td> Class Family </td><td> : Communication
+				</tr>
+				<tr>
+					<td> Platform </td><td> : All Platforms </td>
+				</tr>
+				<tr>
+					<td> Bus </td><td> : Not Applicable </td>
+				</tr>
+				<tr>
+					<td> Manufacturer </td><td> : none </td>
+				</tr>
+				<tr>
+					<td> Manufacturer ref.</td><td> :  </td>
+				</tr>
+			</Table>
+		</ul></td>
+		<td>
+			<ul><li> <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/" target="new"> Tango::DeviceImpl</a></li>
+			<ul> <li> TangoEpics</li>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</td>
+	</Table>
+	<br><br><br>
+	<font size="+1"><u><b> TangoEpics Class Description : </b></u></font>
+	<br><br>
+	<ul>
+		Tango device server for accessing Epics Process Variables.<Br>
+		<Br>
+		You must provide the list of PVs you want to interface and optionally a host<Br>
+		name and then the device will create a tango attribute for each PV.<Br>
+		<Br>
+		Take into account that Tango and Epics follow different naming conventions,<Br>
+		which may cause problems. In order to allow maximum flexibility all options have<Br>
+		been left open in order to translate the Epics process variable names to tango<Br>
+		attributes names:<Br>
+		<Br>
+		1) Name the tango attribute exactly as the Epics process variable name. Take<Br>
+		   into account that this may cause problems if process variables names include<Br>
+		   special characters.<Br>
+		<Br>
+		2) Name the tango attribute just like the Epics process variable name but<Br>
+		   replacing the special characters by others. The replacement may be:<Br>
+		  a- Automatic: all special characters are replace by a _ character<Br>
+		  b- Manual: you can specify replacement strings for special characters<Br>
+		<Br>
+		3) Give your own names to tango attributes.<Br>
+		<Br>
+		See properties section for more details on how to configure all these options.<Br>
+		<Br>
+		Note that if your Epics IOC contains process variables named State and/or Status<Br>
+		these will compulsory have to be renamed.<Br>
+		<Br>
+		The server uses PyEpics for interfacing Epics. See:<Br>
+		http://cars9.uchicago.edu/software/python/pyepics3/index.html
+		
+		<!---  /*PROTECTED REGION ID(index.html) ENABLED START*/  --->
+			<!--- Add your own documentation, pictures, links,.... --->
+			
+		<!---  /*PROTECTED REGION END*/  --->
+		
+	</ul>
+</ul>
+</body>
+</html>
